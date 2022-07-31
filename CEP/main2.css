@@ -1,0 +1,95 @@
+body{
+	font-family: Verdana;
+	font-size: 15px;
+	padding: 0;
+	margin: 0;
+}
+
+h1{
+	color: white;
+	top: 40px;
+	position: relative;
+	font-size: 40px;
+}
+
+h2{
+	color: white;
+	font-size: 14px;
+	top: 20px;
+	position: relative;
+}
+
+.menu {
+	background-image: linear-gradient(to right, #3D5AFE, #2196F3);
+	background-size: cover;
+	height: 200px;
+	text-align: center;
+}
+
+.material-symbols-outlined.px64 {
+	text-align: center;
+	position: relative;
+	font-size: 64px;
+	padding: 5px;
+	top: -60px;
+	color: #2196F3;
+}
+
+.blue{
+	width: 90px;
+	height: 90px;
+	background: white;
+	border-radius: 100%;
+	position: relative;
+	top: 40px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.container{
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 40px;
+	border: 1px solid black;
+	width: 500px;
+	height: 350px;
+	padding-top: 5px;
+	
+}
+input{
+	width: 350px;
+	height: 35px;
+	border-radius: 5px;
+	border: 1px solid gray;
+	font-size: 16px;
+	position: relative;
+	display: block;
+	margin-left: 75px;
+	margin-bottom: 5px;
+}
+
+.txt{
+	margin-left: 75px;
+}
+
+.btn {
+	color: white;
+	width: 350px;
+	margin-top: 10px;
+	background-color: #2196F3;
+	padding: 12px;
+	border-radius: 5px;
+	margin-left: 75px;
+	font-size: 16px;
+	border: 0px solid black;
+	box-shadow: 0 4px #0D47A1;
+}
+
+.btn:hover {
+	cursor:pointer;
+}
+
+.btn:active {
+  background-color: #2196F3;
+  box-shadow: 0 0px #0D47A1;
+  transform: translateY(4px);
+}
